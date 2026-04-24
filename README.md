@@ -20,8 +20,13 @@ Atualmente graduando em Ciência da Computação e em Análise e Desenvolvimento
 ---
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=m0raezz&theme=midnight-purple&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=m0raezz&theme=midnight-purple&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=m0raezz&theme=midnight-purple&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.shion.dev/api?username=m0raezz&theme=midnight-purple&hide_border=false&include_all_commits=true&count_private=true">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.shion.dev/api?username=m0raezz&theme=default&hide_border=false&include_all_commits=true&count_private=true">
+  <img alt="GitHub Stats" src="https://github-readme-stats.shion.dev/api?username=m0raezz&theme=midnight-purple&hide_border=false&include_all_commits=true&count_private=true">
+</picture>
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme
