@@ -1,13 +1,11 @@
 name: Generate Datas
 
 on:
-  schedule: # Executa a cada 12 horas
+  schedule:
     - cron: "0 */12 * * *"
   
-  # Permite executar manualmente na aba Actions
   workflow_dispatch:
   
-  # Executa toda vez que houver um push na branch main
   push:
     branches:
     - main
@@ -16,8 +14,12 @@ jobs:
   build:
     name: Jobs to update datas
     runs-on: ubuntu-latest
+    
+    # 👇 ESTA É A PERMISSÃO QUE FALTAVA 👇
+    permissions:
+      contents: write 
+    
     steps:
-      # Snake Animation
       - uses: Platane/snk/svg-only@v3
         id: snake-gif
         with:
@@ -28,7 +30,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-      # Faz o push das imagens geradas para a branch "output"
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
