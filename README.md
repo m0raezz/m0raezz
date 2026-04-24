@@ -29,4 +29,16 @@ Atualmente graduando em Ciência da Computação e em Análise e Desenvolvimento
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=m0raezz&theme=midnight-purple&hide_border=false">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=m0raezz&theme=default&hide_border=false">
+  <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=m0raezz&theme=midnight-purple&hide_border=false">
+</picture>
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.shion.dev/api/top-langs/?username=m0raezz&theme=midnight-purple&hide_border=false&include_all_commits=true&count_private=true&layout=compact">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.shion.dev/api/top-langs/?username=m0raezz&theme=default&hide_border=false&include_all_commits=true&count_private=true&layout=compact">
+  <img alt="Top Languages" src="https://github-readme-stats.shion.dev/api/top-langs/?username=m0raezz&theme=midnight-purple&hide_border=false&include_all_commits=true&count_private=true&layout=compact">
+</picture>
+
+</div>
